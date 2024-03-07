@@ -1,0 +1,65 @@
+/* Works on Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    /* background: #2f2f2f;  */
+    /* background-color: transparent; Set the background color of the scrollbar track to transparent */
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+
+.flex{
+    display: flex;
+    margin: 3px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.border{
+    border: 2px solid red ;
+}
+
+.invert{
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 8px;
+}
+
+.m1{
+    margin: 5px;
+}
+
+.p1{
+    padding: 8px;
+    /* padding-left: 10px; */
+}
